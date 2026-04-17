@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    background-color: rgba(255, 149, 149, 0.644);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.nav-text {
+    display: flex;
+    margin-top: 35px;
+    gap: 40px;
+}
+
+.nav-text a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-btn {
+    margin-top: 20px;
+    margin-right: 100px;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(194, 138, 106);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.nav-btn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+.hero {
+    margin: 100px 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.hero-text {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+
+}
+
+.hero-text-main {
+    font-size: 4em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.hero-text-secondary {
+    font-size: 18px;
+    width: 450px;
+}
+
+.hero-btn {
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.hero-btn-1 {
+    width: 170px;
+    height: 60px;
+    background-color: rgb(78, 105, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.hero-btn-1 a {
+    text-decoration: none;
+    color: white
+}
+
+.hero-btn-2 {
+    width: 170px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 0,5px;
+    border-color: rgb(78, 105, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.hero-btn-2 a{
+    text-decoration: none;
+    color: rgb(78, 105, 224)
+}
+
+.hero-picture {
+    margin-left: 90px;
+}
+
+.guy-picture {
+    margin-left: 100px;
+}
+
+.mail-part {
+    display: flex;
+}
+
+.email-text {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.placeholder {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
